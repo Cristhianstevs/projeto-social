@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    background-color: #DECFBF;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tela {
+    position: relative;
+    top: 81px;
+    left: 22px;
+    height: 471px;
+    width: 267px;
+}
+#telefone {
+    background-image: url(../imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    height: 627px;
+    width: 311px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+#redes {
+
+    height: 500px;
+    width: 70px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#redes a img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 1px #00000050;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+#redes a img:hover {
+    transition: 90ms;
+    border: 3px solid black;
+}
